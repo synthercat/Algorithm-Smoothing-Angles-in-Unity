@@ -1,7 +1,7 @@
 # Algorithm: Smoothing out 0-360 degree readouts from a sensor
 
 ### Description
-This was an algorithm I had to come up to in order to use it for my [RealSunAR](http://bit.ly/2TfJY6w) Unity plugin update (Version 2.00).
+This was an algorithm I had to come up with in order to use it for my [RealSunAR](http://bit.ly/2TfJY6w) Unity plugin update (Version 2.00).
 
 ### The problem
 When you try to get average between 2 angles, one valued `355` and one valued `5` instead of getting a result of `0` it would output `(355 + 5) / 2 = 180`
