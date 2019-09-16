@@ -1,6 +1,6 @@
 # Algorithm: Smoothing out 0-360 degree readouts from a sensor
 
-### Description:
+### Description
 This was an algorithm I had to come up to in order to use it for my [RealSunAR](http://bit.ly/2TfJY6w) Unity plugin update (Version 2.00).
 
 ### The problem
@@ -22,6 +22,8 @@ We need to swift/offset the majority of the values to the `180` part of a circle
 Just copy all files into your **Assets** folder a new project (I created this using Unity 2018.4.0 but should work in all versions). Go to the `Assets/Angle Smoothing` folder and open the `Angle Smoothing` scene
 
 Press play!
+
+![img](https://github.com/synthercat/Algorithm-Smoothing-Angles-in-Unity/blob/master/Screenshot.png)
 
 * As you see I already have sample values in the `Angle Smoothing` gameobject under it's tab named "Original"
 * The Game window shows a graphic representation of the process
